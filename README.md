@@ -3,6 +3,8 @@
 This repository contains a full-stack application demonstrating Multi-Tenancy and Role-Based Access Control (RBAC) implemented across a decoupled client (React) and a Node.js/Express API gateway (using the Firebase Admin SDK).
 
 ---
+## Deployed Link : https://multitenantroleassignment.web.app/
+---
 
 ## 🚀 How to Run the App Locally
 This project requires two separate terminals: one for the backend API and one for the frontend.
