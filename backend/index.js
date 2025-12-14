@@ -15,11 +15,7 @@ app.use(express.json({ limit: '5mb' }));
 
 app.use(mockAuthMiddleware);
 
-app.use('/orders', orderRoutes);
+app.use('/api/orders', orderRoutes);
 
 export const index = onRequest(app);
 
-
-//app.listen(port, () => {
-//    console.log(`Backend API listening at http://localhost:${port}`);
-//});

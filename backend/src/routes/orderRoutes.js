@@ -10,6 +10,7 @@ const asyncWrapper = (fn) => (req, res, next) => {
 };
 
 router.get('/', checkPermission('view'), asyncWrapper(async (req, res) => {
+
     const { tenantId } = req.session;
 
     const q = db.collection('orders').where('tenantId', '==', tenantId);
